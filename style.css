@@ -1,0 +1,100 @@
+@font-face
+{
+    font-family: Title;
+    src: url(GentleDad.otf);
+}
+@font-face
+{
+    font-family: navfont;
+    src: url(CHLORINR.TTF);
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #1A1A1C;
+}
+.x
+{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    position: absolute;
+}
+.x video
+{
+    width: 100%;
+    align-self: center;
+}
+header #top
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    backdrop-filter: blur(0px);
+}
+header
+{
+
+
+    background-size: cover;
+    background-position-y: 100%;
+    height: 100vh;
+
+}
+header #text
+{
+    width: 55%;
+    display: flex;
+    justify-content: center;    
+}
+header #text h1
+{
+    margin-left: 10%;
+    color: white;
+    font-size: 100px;
+    font-family: Title;
+}
+header #image
+{
+   width: 20%;
+   margin-right: 14%;
+}
+header #image img
+{
+    width: 100%;
+}
+nav
+{
+    width: 100%;
+    background-color: #1A1A1C;
+}
+nav ul
+{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+nav li
+{
+    padding: 15px 0;
+}
+nav a
+{
+    text-decoration: none;
+    padding: 15px 0;
+    font-size: 40px;
+    color: rgb(169, 169, 169);
+    font-family: navfont;
+}
+nav a:hover
+{
+    color: rgb(244, 195, 81);
+    text-shadow: rgb(244, 195, 81) 0 0 14px;
+}
+
