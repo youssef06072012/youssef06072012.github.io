@@ -1,0 +1,19 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #1A1A1C;
+}
+.x
+{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    position: absolute;
+}
+.x video
+{
+    width: 100%;
+    align-self: center;
+}
