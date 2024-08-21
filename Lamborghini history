@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The History of Lamborghini</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(244, 195, 8);
+      }
+      header {
+        background: #333;
+        color: #fff;
+        padding: 1em 0;
+        text-align: center;
+      }
+      nav {
+        margin: 0 auto;
+        max-width: 800px;
+      }
+      nav ul {
+        list-style: none;
+        padding: 0;
+      }
+      nav ul li {
+        display: inline;
+        margin: 0 15px;
+      }
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
+      section {
+        padding: 2em;
+        margin: 0 auto;
+        max-width: 800px;
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+      }
+      footer {
+        background: rgb(244, 195, 8);
+        color: #fff;
+        text-align: center;
+        padding: 1em 0;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>The History of Lamborghini</h1>
+      <nav>
+        <ul>
+          <li><a href="#introduction">Introduction</a></li>
+          <li><a href="#founding">Founding</a></li>
+          <li><a href="#key-milestones">Key Milestones</a></li>
+          <li><a href="#modern-era">Modern Era</a></li>
+          <li><a href="#legacy">Legacy</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="introduction">
+      <h2>Introduction</h2>
+      <p>
+        Lamborghini is an iconic Italian brand known for its luxury sports cars.
+        Founded in 1963 by Ferruccio Lamborghini, the company has a rich history
+        of innovation and performance in the automotive industry.
+      </p>
+      <img src="countach.jpg" alt="" />
+    </section>
+
+    <section id="founding">
+      <h2>Founding</h2>
+      <p>
+        Ferruccio Lamborghini, a successful businessman in the tractor
+        manufacturing industry, founded Automobili Lamborghini in Sant'Agata
+        Bolognese, Italy. His goal was to create a high-performance sports car
+        that could compete with Ferrari.
+      </p>
+      <img src="founding.jpg" alt="" />
+    </section>
+
+    <section id="key-milestones">
+      <h2>Key Milestones</h2>
+      <ul>
+        <li>
+          <strong>1964:</strong> The Lamborghini 350 GT, the company's first
+          production car, is introduced.
+        </li>
+        <li>
+          <strong>1966:</strong> The Miura is launched, setting new standards
+          for sports car performance.
+        </li>
+        <li>
+          <strong>1980s:</strong> Lamborghini introduces models like the
+          Countach and the Diablo, which become symbols of exotic car design.
+        </li>
+        <li>
+          <strong>2000s:</strong> The brand experiences a resurgence with models
+          such as the Murciélago and Gallardo.
+        </li>
+      </ul>
+      <img src="milestones.jpg" alt="" />
+    </section>
+
+    <section id="modern-era">
+      <h2>Modern Era</h2>
+      <p>
+        In recent years, Lamborghini has continued to push boundaries with
+        models like the Aventador and Huracán, embracing both advanced
+        technology and maintaining its reputation for thrilling performance and
+        luxury.
+      </p>
+      <img src="revuelto.jpg" alt="" />
+    </section>
+
+    <section id="legacy">
+      <h2>Legacy</h2>
+      <p>
+        Lamborghini remains a symbol of high performance and luxury, influencing
+        the automotive industry and inspiring enthusiasts worldwide. Its
+        commitment to innovation and design excellence continues to define its
+        legacy.
+      </p>
+      <img src="legacy.jpg" alt="" />
+    </section>
+  </body>
+</html>
