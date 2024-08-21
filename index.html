@@ -7,12 +7,19 @@
     <meta name="description" content="Explore the Lamborghini brand and its history. Discover the latest Lamborghini models and get in touch with the brand.">
     <title>Lamborghini</title>
     <link rel="stylesheet" href="style.css" />
+    <style>
+      /* Include your CSS here or link to your external stylesheet */
+      /* Just a placeholder to ensure CSS is applied correctly */
+    </style>
   </head>
+
   <body>
+    <div class="loading" id="loading">
+        <h1>Loading...</h1>
+    </div>
     <header>
       <div class="x">
-        
-        <video src="Y2meta.app-Deadpool Spec 2023 Lamborghini STO - 4K-(1080p).mp4" autoplay loop muted ></video>
+        <video src="Y2meta.app-Deadpool Spec 2023 Lamborghini STO - 4K-(1080p).mp4" autoplay loop muted></video>
       </div>
       <div id="top">
         <div id="text">
@@ -33,5 +40,25 @@
         <li><a href="https://www.lamborghini.com/en-en/contact-us">Contact</a></li>
       </ul>
     </nav>
+    <div class="return">
+      <a href="#">&#x25B2;</a>
+    </div>
+
+    <script>
+      function loadSite() {
+        // Hide loading screen after content is loaded
+        window.addEventListener('load', () => {
+          const loadingElement = document.getElementById('loading');
+          loadingElement.classList.add('loadingHide'); // Add class to fade out loading screen
+          
+          // Optional: Remove the element from the DOM after the transition
+          setTimeout(() => {
+            loadingElement.classList.add('loadingDelete');
+          }, 1000); // Match this timeout to the transition duration
+        });
+      }
+
+      document.addEventListener('DOMContentLoaded', loadSite);
+    </script>
   </body>
 </html>
