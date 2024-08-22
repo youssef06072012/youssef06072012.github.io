@@ -42,7 +42,8 @@ header #top {
     backdrop-filter: blur(0px);
 }
 
-header #text {
+header #text 
+{
     width: 55%;
     display: flex;
     justify-content: center;    

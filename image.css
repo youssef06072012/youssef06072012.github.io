@@ -10,21 +10,21 @@ body
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    gap: 20px;
+    gap: 100px;
     margin-top: 10%;
     margin-left: 10%;
-
-    border-top: red solid 3px;
-    border-bottom: red solid 3px;
+    border-top: red solid 10px;
+    border-bottom: red solid 2px;
+    border-left: red solid 2px;
+    border-bottom: red solid 2px;  
+    border-right: red solid 2px;
+    border-bottom: red solid 10px;  
     border-style:double;
-    border-left: red solid 3px;
-    border-bottom: red solid 3px;   
 }
 .pov
 {
-    border-right: red solid 3px;
-
-    width: 30%;
+    border-right: red solid 5px;
+    width: 35%;
 }
 .pov img
 {
@@ -46,8 +46,6 @@ body
 }
 header
 {
-
-
     background-size: cover;
     background-position-y: 100%;
     height: 100vh;
@@ -58,11 +56,19 @@ header #text
     width: 55%;
     display: flex;
     justify-content: center;    
+     z-index: 2;
+     position: relative;
 }
-header #text h1
+
+.lol
 {
-    margin-left: 10%;
-    color: rgb(244, 195, 81);
-    font-size: 100px;
-    font-family: Title;
-} 
+    width: 55%;
+    display: flex;
+    justify-content: center;    
+    
+}
+.lol p {
+    color: white; 
+    font-size: 24px; 
+    color: rgb(40, 9, 197);
+}
