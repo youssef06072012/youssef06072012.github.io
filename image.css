@@ -6,31 +6,10 @@ body
 }
 .hi
 {
-    width: 90%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 100px;
-    margin-top: 10%;
-    margin-left: 10%;
-    border-top: red solid 10px;
-    border-bottom: red solid 2px;
-    border-left: red solid 2px;
-    border-bottom: red solid 2px;  
-    border-right: red solid 2px;
-    border-bottom: red solid 10px;  
-    border-style:double;
-}
-.pov
-{
-    border-right: red solid 5px;
-    width: 35%;
-}
-.pov img
-{
     width: 100%;
-    border-radius: 20%;
+    background-color: black;
 }
+
 .bruh
 {
     width: 100%;
@@ -38,37 +17,25 @@ body
     overflow: hidden;
     display: flex;
     position: absolute;
+    top: 0;
+    z-index: -1; 
 }
 .bruh video
 {
     width: 100%;
-    align-self: center;
+    align-self: center
 }
-header
+.azer
 {
-    background-size: cover;
-    background-position-y: 100%;
-    height: 100vh;
-
+    width: 100%;
+    display: grid;
 }
-header #text
+.hi
 {
-    width: 55%;
-    display: flex;
-    justify-content: center;    
-     z-index: 2;
-     position: relative;
+    opacity: 92%;
+    width: 100%;
 }
-
-.lol
+img
 {
-    width: 55%;
-    display: flex;
-    justify-content: center;    
-    
-}
-.lol p {
-    color: white; 
-    font-size: 24px; 
-    color: rgb(40, 9, 197);
+    width: 10%;
 }
